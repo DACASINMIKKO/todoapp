@@ -1,0 +1,60 @@
+.todoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.todoInputContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todoInput {
+    width: 200px;
+    height: 32px;
+    padding: 4px 8px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.addButton {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.todoList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todoText {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.deleteButton {
+    padding: 4px 8px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
